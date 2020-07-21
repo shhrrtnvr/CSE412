@@ -12,7 +12,5 @@ public class string_parse {
         a = s1.substring(0, 1);
         b = s1.substring(2);
         System.out.println(Integer.parseInt(a) + Integer.parseInt(b));
-
-
     }
 }
