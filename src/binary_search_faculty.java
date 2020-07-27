@@ -4,7 +4,7 @@ class binary_search_faculty {
         Search obj = new Search();
         int [] x = {7,2, 9 ,3};
         bubble_sort(x); // [2, 3, 7, 9]
-        System.out.println("The position of 7 is: " + obj.BinarySearch(x,0,x.length-1, 7)); // expected value 2 for given array
+        System.out.println("The position of 7 is: " + Search.BinarySearch(x,0,x.length-1, 7)); // expected value 2 for given array
     }
     private static void bubble_sort(int[] x)
     {
@@ -27,7 +27,7 @@ class binary_search_faculty {
 
 class Search
 {
-    public int BinarySearch(int [] arr, int left, int right, int value)
+    public static int BinarySearch(int [] arr, int left, int right, int value)
     {
         while (left <= right)
         {
