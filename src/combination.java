@@ -10,10 +10,14 @@ public class combination {
         if (n == 0) return 1;
         return n * factorial(n-1);
     }
+    private int permutation(int n, int r)
+    {
+        return factorial(r) * comb(n,r);
+    }
 
     public static void main(String[] args)
     {
         combination c = new combination();
-        System.out.println(c.comb(4,2) * c.factorial(2));
+        System.out.println(c.permutation(4,2));
     }
 }
