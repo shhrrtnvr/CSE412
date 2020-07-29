@@ -1,3 +1,3 @@
 cd ./src
-javac point.java distance.java
+javac *.java
 java distance
