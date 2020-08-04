@@ -1,5 +1,5 @@
 filename='reverse_array'
-echo 'synced previous'
+echo 'synced v2'
 cd ./src
 javac ${filename}.java
 java $filename
