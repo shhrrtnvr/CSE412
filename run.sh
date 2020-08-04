@@ -1,3 +1,3 @@
 cd ./src
 javac *.java
-java distance
+java reverse_array
