@@ -1,7 +1,5 @@
 filename='reverse_array'
-git stash
-git pull origin master
-echo 'synced'
+echo 'synced previous'
 cd ./src
 javac ${filename}.java
 java $filename

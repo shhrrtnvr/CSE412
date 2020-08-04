@@ -1,1 +1,1 @@
-run = "chmod u+x run.sh; ./run.sh"
+run = "git stash; git pull origin master; chmod u+x run.sh; ./run.sh"
