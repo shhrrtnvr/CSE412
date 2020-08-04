@@ -1,3 +1,3 @@
 cd ./src
 javac *.java
-java reverse_array
+java fibonacci_recursive
