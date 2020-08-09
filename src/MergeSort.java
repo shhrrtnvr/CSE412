@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class MergeSort {
     public void sort(int[] A, int l, int r)
     {
@@ -25,9 +27,16 @@ public class MergeSort {
     public static void main(String[] args)
     {
         MergeSort sorter = new MergeSort();
-        int[] A = {3,5,1,3, 5,2, 9, 4, 0};
-        sorter.sort(A, 0, 8);
-        for (int i=0; i < 9; i++)
+        Random rand = new Random();
+        int[] A = new int[10];
+        for (int i = 0; i < 10; i++) {
+            A[i] = rand.nextInt() % 100;
+            System.out.print(A[i]);
+            System.out.print(" ");
+        }
+        System.out.println();
+        sorter.sort(A, 0, 9);
+        for (int i=0; i < 10; i++)
         {
             System.out.print(A[i]);
             System.out.print(" ");
