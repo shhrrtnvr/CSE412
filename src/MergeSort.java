@@ -29,12 +29,13 @@ public class MergeSort {
         MergeSort sorter = new MergeSort();
         Random rand = new Random();
         int[] A = new int[10];
+        System.out.print("Initial Array: ");
         for (int i = 0; i < 10; i++) {
-            A[i] = rand.nextInt() % 100;
+            A[i] = (rand.nextInt() % 100 + 100) % 100;
             System.out.print(A[i]);
             System.out.print(" ");
         }
-        System.out.println();
+        System.out.print("\nSorted Array: ");
         sorter.sort(A, 0, 9);
         for (int i=0; i < 10; i++)
         {
