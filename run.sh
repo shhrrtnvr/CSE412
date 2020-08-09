@@ -1,4 +1,4 @@
-filename='reverse_array'
+filename='MergeSort'
 echo 'synced v3'
 cd ./src
 javac ${filename}.java
