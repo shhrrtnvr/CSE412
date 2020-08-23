@@ -1,4 +1,4 @@
-public class X {
+class X {
     private int x, y;
     public void set(int x, int y)
     {

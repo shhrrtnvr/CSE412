@@ -20,6 +20,7 @@ public class AbstractDemo {
 }
 abstract class Shape {
     public static final double pi = 3.14596;
+    public int s;
     public double getPi() {
         return pi;
     }
@@ -27,7 +28,6 @@ abstract class Shape {
 }
 
 class Square_ extends Shape {
-    private int s;
     public Square_(int s)
     {
         this.s = s;
@@ -39,14 +39,13 @@ class Square_ extends Shape {
     }
 }
 class Circle extends Shape {
-    private int r;
     public Circle(int r)
     {
-        this.r = r;
+        this.s = r;
     }
     @Override
     public double getArea()
     {
-        return getPi()*r*r;
+        return getPi()*s*s;
     }
 }
