@@ -18,7 +18,7 @@ public class FileInputSeriesSum {
             System.out.println(sum);
 
         } catch (FileNotFoundException e) {
-            System.out.print("File not found");
+            System.out.println("File not found");
         } finally {
             try {
                 fis.close();
