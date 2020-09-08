@@ -1,4 +1,4 @@
-filename='FileCountf1f2'
+filename='ThreadingArray'
 cd ./src
 javac ${filename}.java
 java $filename
